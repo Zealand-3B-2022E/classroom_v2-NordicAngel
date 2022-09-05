@@ -11,3 +11,5 @@ ClassRoom @class = new ClassRoom();
 @class.Students.Add(new Student("Patrik", random.Next(1, 12), random.Next(1, 31)));
 @class.Students.Add(new Student("Mikkel", random.Next(1, 12), random.Next(1, 31)));
 @class.Students.Add(new Student("Emil", random.Next(1, 12), random.Next(1, 31)));
+
+Console.WriteLine(@class);

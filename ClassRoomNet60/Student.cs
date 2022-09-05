@@ -19,5 +19,10 @@ namespace ClassRoomNet60
             BirthMonth = birthMonth;
             BirthDay = birthDay;
         }
+
+        public override string ToString()
+        {
+            return $"Student is named {Name} and their birthday is the {BirthDay}/{BirthMonth}";
+        }
     }
 }
